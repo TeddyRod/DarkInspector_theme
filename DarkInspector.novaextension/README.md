@@ -16,16 +16,4 @@ Let's get started!
 🎈 To give users an idea of what your theme looks like, it's a great idea to show big, beautiful screenshots of your theme in action:
 -->
 
-**DarkInspector** provides a calm and drak palette:
-
-![](https://nova.app/images/en/dark/editor.png)
-
-
-
-## Acknowledgements
-
-<!--
-🎈 If your theme is based on existing work by someone else, consider crediting the original author
--->
-
-test is based on _Original test_ by [Lauren Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum).
+**DarkInspector** A simple dark & colourful theme for Nova IDE matching mac's default browser inspecto
