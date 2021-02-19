@@ -1,0 +1,325 @@
+/*
+* docs: https://docs.nova.app/extensions/themes
+*/
+
+meta {
+    -theme-display-name: "DarkInspector";
+    -theme-interface-style: dark;
+    -theme-vibrancy: false;
+    -theme-accent-color: none;
+}
+
+
+/*
+ * Window styles
+ */
+meta.window {
+    border-color: hsla(106, 0%, 12%, 0.75);
+    background-color: hsl(106, 0%, 16%);
+}
+meta.titlebar {
+    color: hsl(106, 0%, 87%);
+    border-color: hsla(220, 5%, 21%, 0.3);
+    background-color: hsl(106, 0%, 22%);
+}
+meta.titlebar.inactive {
+    color: hsl(205, 2%, 45%);
+    border-color: hsla(220, 5%, 21%, 0.3);
+    background-color: hsl(106, 0%, 16%)
+}
+
+meta.button {
+    background: linear-gradient(hsl(210, 5%, 32%), hsl(210, 5%, 25%));
+    border: linear-gradient(hsl(210, 5%, 17%), hsl(210, 5%, 13%));
+    color: hsl(106, 0%, 87%);
+}
+meta.button.highlighted {
+    background: linear-gradient(hsl(210, 5%, 42%), hsl(210, 5%, 34%));
+    color: hsl(106, 0%, 87%);
+}
+meta.button.selected {
+    color: hsl(106, 0%, 87%);
+}
+meta.button.highlighted.selected {
+    color: hsl(106, 0%, 87%);
+}
+meta.button.disabled {
+    
+}
+
+meta.textfield {
+    background-color: hsl(106, 0%, 12%);
+    border-color: hsl(106, 0%, 22%);
+}
+meta.textfield.highlighted {
+    background-color:hsl(106, 0%, 12%);
+    border-color: hsl(210, 5%, 23%);
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: hsl(106, 0%, 12%);
+    border-color: black;
+}
+
+meta.document.button {
+    background: linear-gradient(hsl(210, 5%, 25%), hsl(210, 5%, 21%));
+    border: linear-gradient(hsl(210, 5%, 11%), hsl(210, 5%, 8%));
+}
+meta.document.button.disabled {
+    background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
+}
+meta.document.button.highlighted {
+    background: linear-gradient(hsl(210, 5%, 34%), hsl(210, 5%, 30%));
+}
+
+meta.document.textfield {
+    background-color: hsl(106, 0%, 16%);
+    border-color: hsl(106, 0%, 22%);
+}
+meta.document.textfield.highlighted {
+    background-color: hsl(106, 0%, 12%);
+    border-color: hsl(210, 5%, 19%);
+}
+
+/* Text */
+meta.text {
+    color: hsl(106, 0%, 87%);
+}
+meta.text.invisible {
+    color: hsla(210, 100%, 90%, 0.12);
+}
+meta.text.selected {
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: hsl(210, 5%, 15%);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: hsla(220, 5%, 48%, 0.2);
+}
+
+/* Gutter */
+meta.gutter {
+    color: hsl(211, 2%, 35%);
+}
+meta.gutter.selected {
+    background-color: hsl(106, 0%, 12%);
+    color: hsl(210, 17%, 76%);
+}
+
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+    color: hsl(200, 100%, 77%);
+}
+comment {
+    color: hsl(211, 2%, 35%);
+}
+processing {
+    color: hsl(211, 2%, 35%);
+}
+declaration {
+    color: hsl(211, 2%, 35%);
+}
+bracket {
+    color: hsl(106, 0%, 58%);
+}
+operator {
+    color: hsl(106, 0%, 87%);
+}
+
+invalid {
+    background-color: hsl(358, 94%, 70%);
+    color: hsl(60, 33%, 96%);
+}
+link {
+    color: hsl(197, 100%, 77%);
+}
+
+/* Values */
+value.null,
+value.entity {
+    color: hsl(106, 0%, 58%);
+}
+
+value.boolean {
+    color: hsl(360, 94%, 75%);
+}
+
+value.number {
+    color: hsl(291, 100%, 87%);
+}
+
+value.symbol {
+    color: hsl(24, 100%, 74%);
+}
+
+/* Identifiers */
+identifier.type {
+    color: hsl(291, 100%, 87%);
+}
+
+identifier.constant {
+}
+
+identifier.global {
+    color: hsl(360, 94%, 75%);
+} 
+
+identifier.variable {
+    color: hsl(148, 73%, 64%);
+}
+identifier.property {
+    color: hsl(106, 0%, 87%);
+}
+
+identifier.decorator{
+    color: hsl(148, 73%, 64%);
+}
+
+identifier.method {
+    color: hsl(360, 94%, 75%);
+}
+identifier.function {
+    color: hsl(148, 73%, 64%);
+}
+
+identifier.key {
+    color: hsl(360, 94%, 75%);
+}
+identifier.argument {
+    color: hsl(106, 0%, 87%);
+}
+
+/* Strings */
+string {
+    color: hsl(24, 100%, 74%);
+}
+string.key {
+    color: hsl(106, 0%, 87%);
+}
+string-template {
+    color: hsl(24, 100%, 74%);
+    font-style: underline;
+}
+string-template.value {
+    color: hsl(24, 100%, 74%);
+    font-style: underline;
+}
+regex ,
+regex.escaped {
+    color: hsl(291, 100%, 87%);
+}
+cdata {
+    color: hsl(197, 100%, 77%);
+}
+
+/* Markup */
+markup.heading {
+    color: hsl(24, 100%, 74%);
+}
+markup.line {
+    color: hsl(24, 100%, 74%);
+}
+markup.bold {
+    color: hsl(197, 100%, 77%);
+    font-weight: bold;
+}
+markup.italic {
+    color: hsl(197, 100%, 77%);
+    font-style: italic;
+}
+markup.strikethrough {
+    color: hsl(106, 0%, 87%);
+}
+markup.list.item {
+    color: hsl(197, 100%, 77%);
+}
+markup.code {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+markup.link {
+    color: hsl(197, 100%, 77%);
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+    font-weight: bold;
+    color: hsl(148, 73%, 64%);
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+    color: hsl(106, 0%, 87%);
+}
+
+/* Tags */
+tag ,
+tag.framework {
+    color: hsl(106, 0%, 87%);
+}
+tag.attribute.name {
+    color: hsl(106, 0%, 87%);
+}
+
+tag.attribute.value {
+    color: hsl(24, 100%, 74%);
+}
+tag.attribute.value.link {
+    color: hsl(197, 100%, 77%);
+}
+
+/* Styles */
+style.at {
+    color: hsl(358, 94%, 70%);
+    font-weight: bold;
+}
+style.selector.element {
+    font-weight: bold;
+}
+style.selector.identifier.id {
+    color: hsl(358, 94%, 70%);
+}
+style.selector.identifier.class {
+    color: hsl(24, 100%, 74%);
+}
+style.selector.pseudoclass {
+    color: hsl(358, 94%, 70%);
+}
+style.selector.pseudoelement {
+    color:  hsl(291, 100%, 87%);
+}
+style.attribute.name {
+    color: hsl(291, 100%, 87%);
+}
+style.value.number {
+    color: hsl(106, 0%, 87%);
+}
+style.value.color.hex {
+    color: hsl(106, 0%, 87%);
+}
+style.value.keyword {
+    color: hsl(106, 0%, 87%);
+}
+style.value.color.named {
+    color: hsl(106, 0%, 87%);
+}
+style.value.identifier.function {
+    color: hsl(24, 100%, 74%);
+}

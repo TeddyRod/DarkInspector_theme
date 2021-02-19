@@ -1,0 +1,10 @@
+{
+    "identifier": "org.DarkInspector",
+    "name": "DarkInspector",
+    "organization": "Teddy Rogers",
+    "description": "A simple dark & colourful theme for Nova IDE matching mac's default browser inspector",
+    "version": "1.0",
+    "categories": ["themes"],
+    "repository": "https://github.com/frankyonnetti/Gravity.novaextension",
+    "bugs": "https://github.com/frankyonnetti/Gravity.novaextension/issues",
+}
